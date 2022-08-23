@@ -240,6 +240,7 @@ abstract class SearchDelegate<T> {
         backgroundColor: colorScheme.brightness == Brightness.dark ? Colors.grey[900] : Colors.white,
         iconTheme: theme.primaryIconTheme.copyWith(color: Colors.grey),
         textTheme: theme.textTheme,
+        elevation: 0.15
       ),
       inputDecorationTheme: searchFieldDecorationTheme ??
           InputDecorationTheme(
